@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LearnProgressBar</string>
+    <string name="label_progress_bar">Progress Bar</string>
+    <string name="label_text_view_download">Download width Progress Bar</string>
 </resources>

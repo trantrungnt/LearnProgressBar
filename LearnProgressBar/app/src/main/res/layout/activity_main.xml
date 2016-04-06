@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -8,8 +9,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="techkids.mad3.trungnt.learnprogressbar.MainActivity">
-
-   <ProgressBar
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content" />
-</RelativeLayout>
+    
+    <TextView
+        android:text="@string/label_text_view_download"
+        android:textColor="@color/colorText"
+        android:gravity="center"
+        android:layout_width="@dimen/text_view_download_width"
+        android:layout_height="@dimen/text_view_download_height" />
+</LinearLayout>
