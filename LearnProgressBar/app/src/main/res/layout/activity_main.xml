@@ -16,4 +16,11 @@
         android:gravity="center"
         android:layout_width="@dimen/text_view_download_width"
         android:layout_height="@dimen/text_view_download_height" />
+    
+    <Button
+        android:layout_marginTop="@dimen/button_download_margin_top"
+        android:layout_gravity="center"
+        android:text="@string/label_button_download"
+        android:layout_width="@dimen/button_download_width"
+        android:layout_height="@dimen/button_download_height" />
 </LinearLayout>
